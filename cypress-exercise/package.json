@@ -1,0 +1,20 @@
+{
+  "name": "cypress-exercise",
+  "version": "1.0.0",
+  "description": "Cypress End-to-End Testing Exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
