@@ -15,7 +15,8 @@ Mục tiêu: Kiểm tra khả năng nhận diện chi tiết trong thiết kế 
 Điểm số đạt được: 7280
 
 3.Hình ảnh minh chứng
-![alt text](image.png)
+
+<img width="1021" height="580" alt="Screenshot 2026-01-21 170044" src="https://github.com/user-attachments/assets/bfb13afa-3c77-4332-ad32-d01fd69f5376" />
 
 Kiểm thử Tự động End-to-End với Cypress
 1. Tổng quan
