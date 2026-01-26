@@ -103,19 +103,11 @@ Chế độ ngầm (Headless Mode) - Chạy nhanh trên terminal:npx cypress run
 cypress-exercise/ 
 
 ├── cypress/
-
 │   ├── e2e/ 
-
 │   │   ├── login_spec.cy.js    # Kịch bản test đăng nhập 
-
 │   │   └── cart_spec.cy.js     # Kịch bản test giỏ hàng & thanh toán 
-
 │   ├── fixtures/               # Dữ liệu mẫu (nếu có) 
-
 │   └── support/                # Cấu hình chung và custom commands 
-
 ├── cypress.config.js           # Cấu hình Cypress 
-
 ├── package.json                # Quản lý thư viện 
-
 └── README.md                   # Báo cáo này
