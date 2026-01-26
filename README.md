@@ -18,7 +18,8 @@ Mục tiêu: Kiểm tra khả năng nhận diện chi tiết trong thiết kế 
 
 <img width="1021" height="580" alt="Screenshot 2026-01-21 170044" src="https://github.com/user-attachments/assets/bfb13afa-3c77-4332-ad32-d01fd69f5376" />
 
-Kiểm thử Tự động End-to-End với Cypress
+Kiểm thử Tự động End-to-End với Cypress  
+
 1. Tổng quan
 Dự án này là bài tập thực hành kiểm thử tự động (E2E Testing) cho trang web SauceDemo - một trang web giả lập thương mại điện tử. Mục tiêu là viết các kịch bản kiểm thử để xác minh các chức năng quan trọng của hệ thống bằng công cụ Cypress.
 
@@ -26,6 +27,7 @@ Dự án này là bài tập thực hành kiểm thử tự động (E2E Testing
 Ngôn ngữ: JavaScript
 Framework kiểm thử: Cypress
 Môi trường chạy: Node.js
+
 3. Các kịch bản kiểm thử đã thực hiện
 Tôi đã xây dựng các kịch bản kiểm thử (Test Cases) bao phủ các chức năng chính sau:
 
