@@ -53,7 +53,22 @@ Dưới đây là chi tiết các kịch bản đã được hiện thực hóa 
 
 ---
 
-## 4. 🚀 Hướng Dẫn Cài Đặt & Chạy Test
+## 4. ⚡ Kiểm thử Hiệu năng với JMeter
+*Báo cáo chi tiết xem tại: [`jmeter/readme.md`](jmeter/readme.md)*
+
+Dự án đã thực hiện kiểm thử hiệu năng cho website SauceDemo sử dụng công cụ **Apache JMeter**.
+
+### 🧪 Các kịch bản kiểm thử:
+- **Thread Group 1 (Cơ bản):** 10 users, kiểm tra tải nhẹ trang chủ.
+- **Thread Group 2 (Tải nặng):** 50 users, kiểm tra khả năng chịu tải khi truy cập trang chủ và trang danh sách.
+- **Thread Group 3 (Tùy chỉnh):** 20 users, kiểm thử độ ổn định trong 60s trên các trang giỏ hàng và thanh toán.
+
+### 📊 Kết quả:
+Vui lòng tham khảo file [`jmeter/readme.md`](jmeter/readme.md) để xem báo cáo chi tiết và file [`jmeter/performance_test.jmx`](jmeter/performance_test.jmx) để xem cấu hình test plan.
+
+---
+
+## 5. 🚀 Hướng Dẫn Cài Đặt & Chạy Test
 
 ### Bước 1: Cài đặt (Installation)
 Clone dự án và cài đặt các thư viện cần thiết:
@@ -81,7 +96,7 @@ npx cypress run
 
 ---
 
-## 5. 📂 Cấu Trúc Dự Án
+## 6. 📂 Cấu Trúc Dự Án
 ```tree
 cypress-exercise/
 ├── 📁 cypress/
@@ -91,6 +106,7 @@ cypress-exercise/
 │   ├── 📁 fixtures/               # Dữ liệu test mẫu
 │   └── 📁 support/                # Commands & Config chung
 ├── 📄 cypress.config.js           # Cấu hình chính của Cypress
+├── 📁 jmeter/                   # Kịch bản & báo cáo JMeter
 ├── 📄 package.json                # Khai báo dependencies
 └── 📄 README.md                   # Tài liệu hướng dẫn này
 ```
