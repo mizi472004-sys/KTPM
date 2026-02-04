@@ -289,7 +289,7 @@ Do môi trường hiện tại chưa cài đặt sẵn JMeter, bạn vui lòng t
 - Đánh giá tổng quan về hiệu năng của website.
 - Đề xuất cải thiện (nếu có).
 
-## 6. Minh chứng
+6. Minh chứng
 *(Đính kèm hình ảnh Screenshot của Summary Report hoặc View Results Tree tại đây)*
 
 
