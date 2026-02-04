@@ -196,3 +196,15 @@ cypress-exercise/
 ├── package.json                # Quản lý thư viện  
 
 └── README.md                   # Báo cáo này
+
+Chương 4: Kiểm thử Hiệu năng với JMeter
+
+1. Tổng quan
+Thực hiện kiểm thử hiệu năng cho website Wikipedia (www.wikipedia.org) sử dụng công cụ Apache JMeter.
+Mục tiêu là đo lường thời gian phản hồi, khả năng chịu tải và độ ổn định của hệ thống dưới các mức tải khác nhau.
+
+2. Tài nguyên
+- **Thư mục kiểm thử:** `/jmeter`
+- **Kịch bản kiểm thử (.jmx):** `/jmeter/performance_test_wikipedia.jmx`
+- **Báo cáo chi tiết:** Vui lòng xem file [jmeter/readme.md](./jmeter/readme.md) để xem chi tiết các kịch bản và kết quả kiểm thử.
+
